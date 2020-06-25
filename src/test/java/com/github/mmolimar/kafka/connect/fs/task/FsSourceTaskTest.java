@@ -46,7 +46,7 @@ public class FsSourceTaskTest {
     );
     private static final int NUM_RECORDS = 10;
     private static final long NUM_BYTES_PER_FILE = 390;
-    private static final String FILE_ALREADY_PROCESSED = "already_processed.txt";
+    private static final String FILE_ALREADY_PROCESSED = "0101010101010101.txt";
 
     @BeforeAll
     public static void initFs() throws IOException {
